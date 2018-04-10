@@ -1,5 +1,7 @@
 import random
-n=10000000
+import sys
+
+n=int(sys.argv[1])
 v=[]
 for i in range(0,n):
     v.append(random.randint(1,6))
